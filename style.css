@@ -125,7 +125,7 @@
 	font-size: 1rem;
 }
 .dept-flex{
-	height: 100vh;
+	height: 40vh;
 }
 .dept-focus{
 	display: flex;
@@ -146,7 +146,7 @@
 	align-self: center;
 }
 .donor-flex{
-	height: 80vh;
+	height: 30vh;
 }
 .donor-focus{
 	display: flex;
@@ -170,4 +170,13 @@
 }
 .donor-focus > small{
 	align-self: center;
+}
+
+@media (min-width: 992px){
+			.dept-flex{
+			height: 100vh;
+		}
+			.donor-flex{
+			height: 80vh;
+		}
 }
