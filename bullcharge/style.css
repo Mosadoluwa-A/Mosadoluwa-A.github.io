@@ -17,18 +17,23 @@ body{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding-top: 1rem;
 	/*padding: 3rem;*/
 
 }
 /*.wrapper > form{
 	width: 50%;
 }*/
-
+.biege-background{
+	background-color: #f5f5dc;
+}
 .blue-background{
 	background-color: rgba(8, 51, 120, 0.9);
 	color: white;
 }
-
+.blue-text{
+	color: rgba(8, 51, 120, 0.9);
+}
 #footer{
 	background-color: rgba(8, 51, 120, 0.9);
 	color: white;
