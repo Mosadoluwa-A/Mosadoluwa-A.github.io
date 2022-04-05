@@ -17,13 +17,17 @@ body{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	height: 90vh;
 	/*padding: 3rem;*/
 
 }
 /*.wrapper > form{
 	width: 50%;
 }*/
+
+.blue-background{
+	background-color: rgba(8, 51, 120, 0.9);
+	color: white;
+}
 
 #footer{
 	background-color: rgba(8, 51, 120, 0.9);
@@ -61,20 +65,40 @@ body{
 #login-box{
 	width: 100%;
 }
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(8, 51, 120, 0.9);
+}
 
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
 
 @media (min-width: 480px) {
 	
+	body{
+		height: 120vh;
+	}
 	#login-box{
 		width: 50%;
 	}
-	
+
 	#footer-title{
-		font-size: calc(.5rem + 1vh);
-		padding-top: .7rem;
+	font-size: calc(.5rem + 1vh);
+	padding-top: .7rem;
 	}
-		#footer-org-name{
-		font-size: calc(.5rem + 3vh);
-		padding-top: .2rem;
+	#footer-org-name{
+	font-size: calc(.5rem + 3vh);
+	padding-top: .2rem;
+	}
+}
+@media (min-height: 1000px) {
+	body{
+		height: 80vh;
 	}
 }
