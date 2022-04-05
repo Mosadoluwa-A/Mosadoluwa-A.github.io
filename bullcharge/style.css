@@ -102,3 +102,8 @@ body{
 		height: 80vh;
 	}
 }
+@media (max-height: 560px) {
+	body{
+		height: 130vh;
+	}
+}
